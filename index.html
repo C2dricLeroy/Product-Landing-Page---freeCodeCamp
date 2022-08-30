@@ -5,7 +5,7 @@
     <meta name="viewport"content="width=device-width, initial-scale=1">
     <title>Product Landing Page</title>
     <link href="./styles.css" rel="stylesheet"/>
-    <description>Here is a landing page I made for a freeCoceCamp project</description>
+    <description>Here is a landing page I made for a freeCodeCamp project</description>
   </head>
   <body>
     <header id="header">
@@ -13,18 +13,39 @@
         <img src="logo.png" id="header-img" />
         <p id="title">Original Hats</p>
       </div>
-      <nav id="nav-bar">
-        <div class="nav-link"><!-- Ajouter ici direction envoi -->Features</div>
-        <div class="nav-link"><!-- Ajouter ici direction envoi -->How it works</div>
-        <div class="nav-link"><!-- Ajouter ici direction envoi -->Pricing</div>
+      <nav id="nav-bar" class="split">
+        
+        <a class="nav-link" href="#features">Features</a>
+        <a class="nav-link" href="#explanations">How it works</a>
+        <a class="nav-link" href="#pricing">Pricing</a>
+        
       </nav>
     </header>
-    <main>
-      <h1><!--Présentation produit--></h1>
-      <form id="starting-form">
-        <input type="email" id="email-form"placeholder="Enter your email address"></input>
-        <input type="submit" id="submit-button" value="Submit" placeholder="Get started">
-      </form>
+    <main id="flex">
+      
+        <div id="form">
+          <h1>Handcrafted italians hats</h1>
+          <form id="starting-form">
+            <input type="email" id="email" placeholder="Enter your email address"></input>
+            <input type="submit" id="submit-button" value="Submit" placeholder="Get started">
+          </form>
+        </div>
+        <div id="features">
+          <h2>lorem</h2>
+            <p>Description1</p>
+          <h2>lorem</h2><p>Description 2</p>
+          <h2>lorem</h2><p>description3</p>
+          <video controls>
+            <iframe width="560" height="315" id="video" src="https://www.youtube.com/embed/L2tawXvNwDY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </video>
+        </div>
+        <div id="explanations">
+          <h2>lorem</h2>
+        </div>
+        <div id="pricing">
+          <h2>lorem</h2>
+        </div>
+      
     </main>
     
   </body>
