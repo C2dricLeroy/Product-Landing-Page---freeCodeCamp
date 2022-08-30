@@ -22,12 +22,12 @@ body {
 
 #nav-bar {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
     margin: auto;
 }
 
-.nav-link{
+.nav-link {
     width: 150px;
     height: 20px;
 }
@@ -79,7 +79,7 @@ main {
     margin: auto;
 }
 
-#starting-form {
+#form {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -98,11 +98,11 @@ main {
     border-radius: 2px;
 }
 
-#submit-button:hover {
+#submit:hover {
     cursor: pointer;
 }
 
-#submit-button:active {
+#submit:active {
     background-color:rgba(154, 138, 107, 0.8)
 }
 
